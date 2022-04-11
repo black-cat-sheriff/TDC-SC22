@@ -1,0 +1,3 @@
+/home/lizhi/turker-conv/densenet121-tk/build/CMakeFiles/rebuild_cache.dir
+/home/lizhi/turker-conv/densenet121-tk/build/CMakeFiles/edit_cache.dir
+/home/lizhi/turker-conv/densenet121-tk/build/CMakeFiles/test.dir
