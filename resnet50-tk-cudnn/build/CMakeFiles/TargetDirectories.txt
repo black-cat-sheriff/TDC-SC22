@@ -1,3 +1,0 @@
-/home/lizhi/Desktop/tk-inference-model/resnet18-tk-cudnn/build/CMakeFiles/rebuild_cache.dir
-/home/lizhi/Desktop/tk-inference-model/resnet18-tk-cudnn/build/CMakeFiles/edit_cache.dir
-/home/lizhi/Desktop/tk-inference-model/resnet18-tk-cudnn/build/CMakeFiles/test.dir

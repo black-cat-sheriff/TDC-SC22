@@ -1,3 +1,0 @@
-/home/lizhi/turker-conv/resnet18-original-layer-time/build/CMakeFiles/rebuild_cache.dir
-/home/lizhi/turker-conv/resnet18-original-layer-time/build/CMakeFiles/edit_cache.dir
-/home/lizhi/turker-conv/resnet18-original-layer-time/build/CMakeFiles/test.dir
