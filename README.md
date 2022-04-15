@@ -12,6 +12,7 @@
 ## How to run layers evaluation for core tucker convolution layers
     bash run_core_layers_eval_2080Ti.sh
 Output line: Input channels, Output channles, Height, Width, latency(cuDNN), latency(TDC)
+Latency time unit is ms.
 ![eval1](https://github.com/black-cat-sheriff/TDC-SC22/blob/master/images/layers_eval.png)
 # How to run TDC experiments
 ## Test Tucker-format model accuracy
