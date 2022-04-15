@@ -11,6 +11,7 @@
     ./test
 ### output example
 Output:model name, inference time(ms)
+
 ![eval1](https://github.com/black-cat-sheriff/TDC-SC22/blob/master/images/model-performance.png)
     
 ## How to build layers evaluation for core tucker convolution layers(example for 2080Ti)
