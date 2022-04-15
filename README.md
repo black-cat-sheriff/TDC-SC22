@@ -6,7 +6,7 @@
     bash build_core_layers_eval.sh
 
 # How to run TDC experiments
-## Model test accuracy
+## Test Tucker-format model accuracy
     cd inference
     bash scratch.sh
     python main.py --model [MODEL_NAME] --data-path [IMAGENET_PATH]
