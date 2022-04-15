@@ -11,6 +11,7 @@
     bash scratch.sh
     python main.py --model [MODEL_NAME] --data-path [IMAGENET_PATH]
 `MODEL_NAME` is one of `tkc_resnet18/tkc_resnet50/tkc_vgg16/tkc_densenet121/tkc_densenet201`, and `IMAGENET_PATH` is local folder path of ImageNet dataset.
+![eval1](https://github.com/black-cat-sheriff/TDC-SC22/blob/master/images/model-eval.png)
 
 # Benchmarking platform and Dataset 
 
