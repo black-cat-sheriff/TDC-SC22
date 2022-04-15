@@ -10,8 +10,12 @@ mkdir build
 cd build
 cmake ..
 make -j
+make clean
+make -j
 cd ../../A100
 mkdir build
 cd build
 cmake ..
+make -j
+make clean
 make -j
