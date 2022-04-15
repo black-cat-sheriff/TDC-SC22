@@ -2,9 +2,15 @@
 # TDC build instructions
 ## How to build end2end evaluation code for densenet(121, 201), resnet(18, 50) and vgg16
     bash build_end2end_eval.sh
-## How to build layers evaluation for core tucker convolution layers
-    bash build_core_layers_eval.sh
-
+## How to build layers evaluation for core tucker convolution layers(example for 2080Ti)
+    cd core_convs_eval
+    cd 2080Ti
+    mkdir build
+    cd build
+    cmake ..
+    make -j
+## How to run layers evaluation for core tucker convolution layers
+    bash run_core_layers_eval_2080Ti.sh
 # How to run TDC experiments
 ## Test Tucker-format model accuracy
     cd inference
