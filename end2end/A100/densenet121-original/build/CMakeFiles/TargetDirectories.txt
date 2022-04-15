@@ -1,3 +1,0 @@
-/home/jiannan.tian/lizhi-temp/end2end/turker-conv/densenet121-original/build/CMakeFiles/rebuild_cache.dir
-/home/jiannan.tian/lizhi-temp/end2end/turker-conv/densenet121-original/build/CMakeFiles/edit_cache.dir
-/home/jiannan.tian/lizhi-temp/end2end/turker-conv/densenet121-original/build/CMakeFiles/test.dir

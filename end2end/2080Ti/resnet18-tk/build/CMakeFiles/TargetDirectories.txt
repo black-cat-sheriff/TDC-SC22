@@ -1,3 +1,0 @@
-/home/jiannan.tian/lizhi-temp/end2end/turker-conv/resnet18-tk-cudnn/build/CMakeFiles/rebuild_cache.dir
-/home/jiannan.tian/lizhi-temp/end2end/turker-conv/resnet18-tk-cudnn/build/CMakeFiles/edit_cache.dir
-/home/jiannan.tian/lizhi-temp/end2end/turker-conv/resnet18-tk-cudnn/build/CMakeFiles/test.dir
