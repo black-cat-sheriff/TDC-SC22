@@ -1,6 +1,4 @@
-//
-// Created by lizhi on 4/3/22.
-//
+
 
 #include <cudnn.h>
 #include <stdio.h>
@@ -437,7 +435,7 @@ int main(void){
     cudaEventElapsedTime(&time3, event_start, event_stop);
     float *out_tdc = new float[N2*Height*Width];
     cudaMemcpy(out_tdc,device_out,N2*Height*Width*sizeof(float),cudaMemcpyDeviceToHost);
-    cout<<N1<<","<<N2<<","<<Height<<","<<Width<<","<<time_cudnn<<","<<time3<<endl;
+    cout<<N1<<","<<N2<<","<<Height<<","<<Width<<","<<time_cudnn<<","<<time3<<","<<check_diff(out_cudnn_host,out_tdc,N2*Height*Width)<<endl;
     return 0;
 }
 
