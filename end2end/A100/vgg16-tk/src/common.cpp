@@ -1,6 +1,4 @@
-//
-// Created by lizhi on 1/11/21.
-//
+
 #include "../inc/common.h"
 void load_input(string input_path,unsigned int dataSize,float *input){
     std::ifstream fin(input_path, std::ios::binary);

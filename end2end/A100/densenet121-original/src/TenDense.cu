@@ -1,6 +1,4 @@
-//
-// Created by lizhi on 3/19/22.
-//
+
 
 #include "../inc/common.h"
 TenDenseLayer::TenDenseLayer(unsigned int C, unsigned int N1, unsigned int N2, unsigned int H, unsigned int W,

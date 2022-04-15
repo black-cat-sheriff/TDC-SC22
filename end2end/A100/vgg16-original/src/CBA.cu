@@ -1,6 +1,4 @@
-//
-// Created by lizhi on 3/19/22.
-//
+
 
 #include "../inc/common.h"
 Conv_blk::Conv_blk(unsigned int C, unsigned int N1,unsigned int N2,unsigned int height, unsigned int width,

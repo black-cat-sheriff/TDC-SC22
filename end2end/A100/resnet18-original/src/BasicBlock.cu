@@ -1,6 +1,4 @@
-//
-// Created by lizhi on 3/2/22.
-//
+
 #include "../inc/common.h"
 // conv2_block1
 BasicBlock::BasicBlock(unsigned int C1, unsigned int N1, unsigned int N2, unsigned int height, unsigned int width,

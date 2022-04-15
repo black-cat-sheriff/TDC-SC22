@@ -1,6 +1,4 @@
-//
-// Created by lizhi on 3/2/22.
-//
+
 #include "../inc/common.h"
 // conv2_block1
 TkWeight::TkWeight(string w1, string w2, string w3) {
