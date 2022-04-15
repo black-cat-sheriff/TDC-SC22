@@ -11,6 +11,8 @@
     make -j
 ## How to run layers evaluation for core tucker convolution layers
     bash run_core_layers_eval_2080Ti.sh
+Output line: Input channels, Output channles, Height, Width, latency(cuDNN), latency(TDC)
+![eval1](https://github.com/black-cat-sheriff/TDC-SC22/blob/master/images/layers_eval.png)
 # How to run TDC experiments
 ## Test Tucker-format model accuracy
     cd inference
@@ -24,14 +26,14 @@
 ## Machine 1: 
 * GPU: Nvidia GTX 2080 Ti (68 SMs, 11 GB)
 * OS:  Ubuntu 20.04 LTS
-* CUDA: 11.0
-* cuDNN: 9.0.2
+* CUDA: 10.1
+* cuDNN: 8.0.4
 
 ## Machine 2: 
-* GPU: Nvidia Volta V100(84 SMs, 32GB)
-* OS:   Ubuntu 18.04.4 LTS
-* CUDA: 10.2
-* cuDNN: 7.6.5
+* GPU: Nvidia Ampere A100(108 SMs, 40GB)
+* OS:   Ubuntu 20.04 LTS
+* CUDA: 11.0.3
+* cuDNN: 8.2.1
 
 ## Dataset:
 * Imagenet - ILSVRC2012
