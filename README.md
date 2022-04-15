@@ -6,7 +6,11 @@
     bash build_core_layers_eval.sh
 
 # How to run TDC experiments
-## TODO
+## Model test accuracy
+    cd inference
+    bash scratch.sh
+    python main.py --model [MODEL_NAME] --data-path [IMAGENET_PATH]
+`MODEL_NAME` is one of `tkc_resnet18/tkc_resnet50/tkc_vgg16/tkc_densenet121/tkc_densenet201`, and `IMAGENET_PATH` is local folder path of ImageNet dataset.
 
 # Benchmarking platform and Dataset 
 
