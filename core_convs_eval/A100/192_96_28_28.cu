@@ -133,7 +133,7 @@ void Conv::initialize(unsigned int b,unsigned int c,unsigned int h,unsigned int 
                                             convKernelDescriptor,
                                             convDesc,
                                             convOutputDescriptor,
-                                            CUDNN_CONVOLUTION_FWD_ALGO_IMPLICIT_GEMM,
+                                            CUDNN_CONVOLUTION_FWD_ALGO_WINOGRAD,
                                             &workspace_bytes);
     cudaMalloc(&d_workspace, workspace_bytes);
     unsigned int kernelSize = r*s*C*N;//kernel
@@ -153,7 +153,7 @@ float * Conv::forward(float *input) {
                                        convKernelDescriptor,
                                        kernel,
                                        convDesc,
-                                       CUDNN_CONVOLUTION_FWD_ALGO_IMPLICIT_GEMM,
+                                       CUDNN_CONVOLUTION_FWD_ALGO_WINOGRAD,
                                        d_workspace,
                                        workspace_bytes,
                                        &beta,
